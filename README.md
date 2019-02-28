@@ -46,7 +46,7 @@ Start Hue in a single click with the [Docker Guide](https://github.com/cloudera/
 
 Kubernetes
 ----------
-One Helm chart to start a Hue server is available at ``tools/kubernetes/helm/frontend``. The Kubernetes [hue.yaml](tools/kubernetes/helm/frontend/templates/hue.yaml)
+One Helm chart to start a Hue server is available at [``tools/kubernetes/helm/hue``](tools/kubernetes/helm/hue). The Kubernetes [hue.yaml](tools/kubernetes/helm/hue/templates/hue.yaml)
 configuration is available in the template directoy.
 
 

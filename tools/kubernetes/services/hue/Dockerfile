@@ -36,6 +36,6 @@ EXPOSE 8888
 RUN useradd -ms /bin/bash hue && chown -R hue /usr/share/hue
 WORKDIR  /usr/share/hue
 RUN ./build/env/bin/pip install psycopg2-binary
-# dev tools
+
 COPY ./startup.sh /usr/share/hue
 CMD ["./startup.sh"]

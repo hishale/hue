@@ -10,6 +10,7 @@ Assuming you have a Kubernetes cluster configured with Helm installed and images
 * [Helm](helm)
    * [Hue](helm/hue)
 * YAML
+   * Hue (TBD)
    * NGINX (TBD)
    * Task Server (TBD)
 * Containers
